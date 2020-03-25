@@ -19,8 +19,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Use the Gatsby CLI to create a new site, specifying the blog starter.
 
     ```shell
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
+    # create a new Gatsby site using this fork of gatsby blog starter
+    gatsby new my-blog-starter https://github.com/pehaa/gatsby-starter-blog
     ```
 
 1.  **Start developing.**
