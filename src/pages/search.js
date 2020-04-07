@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 import { Index } from "lunr"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 import Search from "../components/search-form"
 
 const SearchPage = ({ data, location }) => {
