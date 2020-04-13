@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import { Index } from "lunr"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Search from "../components/search-form"
+import SearchForm from "../components/search-form"
 
 const SearchPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -37,7 +37,7 @@ const SearchPage = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Search results" />
       {q ? <h1>Search results</h1> : <h1>What are you looking for?</h1>}
-      <Search initialQuery={q} />
+      <SearchForm initialQuery={q} />
       {results.length ? (
         results.map(result => {
           return (
